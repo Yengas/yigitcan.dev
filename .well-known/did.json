@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:yigitcan.dev",
+  "assertionMethod": [
+    "did:web:yigitcan.dev#primary"
+  ],
+  "authentication": [
+    "did:web:yigitcan.dev#primary"
+  ],
+  "capabilityDelegation": [
+    "did:web:yigitcan.dev#primary"
+  ],
+  "capabilityInvocation": [
+    "did:web:yigitcan.dev#primary"
+  ],
+  "service": [],
+  "keyAgreement": [
+    {
+      "id": "did:web:yigitcan.dev#enc",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:yigitcan.dev",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "use": "enc",
+        "crv": "X25519",
+        "x": "oYEo51Fl4qdkwnW61EzLO3zWEfjeRhGPSu-wrc5NdxA"
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:yigitcan.dev#primary",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:yigitcan.dev",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "use": "sig",
+        "crv": "Ed25519",
+        "x": "AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
+      }
+    }
+  ]
+}
