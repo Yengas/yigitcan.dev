@@ -2,21 +2,21 @@
   "@context": "https://www.w3.org/ns/did/v1",
   "id": "did:web:yigitcan.dev",
   "assertionMethod": [
-    "did:web:yigitcan.dev#primary"
+    "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
   ],
   "authentication": [
-    "did:web:yigitcan.dev#primary"
+    "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
   ],
   "capabilityDelegation": [
-    "did:web:yigitcan.dev#primary"
+    "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
   ],
   "capabilityInvocation": [
-    "did:web:yigitcan.dev#primary"
+    "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
   ],
   "service": [],
   "keyAgreement": [
     {
-      "id": "did:web:yigitcan.dev#enc",
+      "id": "did:web:yigitcan.dev#oYEo51Fl4qdkwnW61EzLO3zWEfjeRhGPSu-wrc5NdxA",
       "type": "JsonWebKey2020",
       "controller": "did:web:yigitcan.dev",
       "publicKeyJwk": {
@@ -29,7 +29,7 @@
   ],
   "verificationMethod": [
     {
-      "id": "did:web:yigitcan.dev#primary",
+      "id": "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk",
       "type": "JsonWebKey2020",
       "controller": "did:web:yigitcan.dev",
       "publicKeyJwk": {
