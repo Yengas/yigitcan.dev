@@ -4,6 +4,30 @@
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
   "id": "did:web:yigitcan.dev",
+  "verificationMethod": [
+    {
+      "id": "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:yigitcan.dev",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
+      }
+    }
+  ],
+  "keyAgreement": [
+    {
+      "id": "did:web:yigitcan.dev#oYEo51Fl4qdkwnW61EzLO3zWEfjeRhGPSu-wrc5NdxA",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:yigitcan.dev",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "X25519",
+        "x": "oYEo51Fl4qdkwnW61EzLO3zWEfjeRhGPSu-wrc5NdxA"
+      }
+    }
+  ],
   "assertionMethod": [
     "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
   ],
@@ -15,32 +39,5 @@
   ],
   "capabilityInvocation": [
     "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
-  ],
-  "service": [],
-  "keyAgreement": [
-    {
-      "id": "did:web:yigitcan.dev#oYEo51Fl4qdkwnW61EzLO3zWEfjeRhGPSu-wrc5NdxA",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:yigitcan.dev",
-      "publicKeyJwk": {
-        "kty": "OKP",
-        "use": "enc",
-        "crv": "X25519",
-        "x": "oYEo51Fl4qdkwnW61EzLO3zWEfjeRhGPSu-wrc5NdxA"
-      }
-    }
-  ],
-  "verificationMethod": [
-    {
-      "id": "did:web:yigitcan.dev#AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:yigitcan.dev",
-      "publicKeyJwk": {
-        "kty": "OKP",
-        "use": "sig",
-        "crv": "Ed25519",
-        "x": "AD9t5zc7yeWQNQr2QbsydsX-b59zgOrPgcDJcEXBZzk"
-      }
-    }
   ]
 }
